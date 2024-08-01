@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Care Clinic | Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #0056b3;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .intro, .cta, .testimonials, .about {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .intro p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .cta {
+            text-align: center;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #0056b3;
+        }
+        .testimonials blockquote {
+            border-left: 4px solid #007bff;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .testimonials footer {
+            margin-top: 10px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .about h2, .about p {
+            margin: 0;
+            padding: 0;
+        }
+        .about {
+            background: #e9ecef;
+            border: 1px solid #007bff;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #007bff;
+            color: #fff;
+            margin-top: 20px;
+            border-top: 5px solid #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mind Care Clinic</h1>
+            <p>Professional Psychological Counseling in Bangalore</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>Welcome to Mind Care Clinic</h2>
+            <p>Hello, I'm Dr. Garima Sood, a clinical psychologist based in Yelahanka, Bangalore. At Mind Care Clinic, we are committed to providing compassionate and professional psychological support tailored to your individual needs. Whether you're dealing with anxiety, depression, or any other mental health challenges, we're here to help you navigate your journey to wellness with expertise and empathy.</p>
+        </div>
+        
+        <div class="about">
+            <h2>About Dr. Garima Sood</h2>
+            <p>With a Master's degree in Clinical Psychology, I bring extensive experience in psychological counseling and career guidance. My focus is on creating a supportive and non-judgmental environment, helping clients achieve optimal mental health and personal growth. My experience includes working with various NGOs and offering specialized counseling in areas such as anxiety, depression, and stress management.</p>
+        </div>
+        
+        <div class="cta">
+            <h2>Ready to Take the First Step Towards Better Mental Health?</h2>
+            <a href="mailto:info@mindcareclinic.com">Schedule an Appointment</a>
+        </div>
+        
+        <div class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <blockquote>
+                <p>"Dr. Garima Sood has been a guiding light for me during my difficult times. Her support and guidance have been invaluable."</p>
+                <footer>- Priya S., Bangalore</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Mind Care Clinic provides a safe and welcoming space. Highly recommend Dr. Sood for anyone seeking professional counseling."</p>
+                <footer>- Rahul M., Bangalore</footer>
+            </blockquote>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Mind Care Clinic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
